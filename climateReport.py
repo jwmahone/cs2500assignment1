@@ -27,7 +27,7 @@ make no assumption about order of data
 Arguments: region1_dict: dictionary for first region
 region2_dict: dictionary for second region
 month: specified month to avg
-filename: name of file to write monthly avgs to
+filename: name of file to write monthly avgs to 
 """
     with open(filename, "a") as file:
         file.write("Date Region1 Region2 Difference")
